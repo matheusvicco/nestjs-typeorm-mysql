@@ -1,8 +1,7 @@
 /* eslint-disable prettier/prettier */
-import { IsEmail } from "class-validator";
+import { IsEmail } from 'class-validator';
 
 export class AuthForgetDTO {
-    
-    @IsEmail()
-    email: string;
+  @IsEmail()
+  email: string;
 }
